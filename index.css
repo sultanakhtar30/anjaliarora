@@ -1,0 +1,159 @@
+body {
+  background: #f6f6f6;
+  background-color: black;
+}
+
+.wrappers h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #f6f6f6;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.wrapper h1 {
+  text-align: center;
+  color: #f6f6f6;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  width: 95%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.box {
+  background: #262626;
+  width: 32%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-radius: 15px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.box h2 {
+  text-align: center;
+  color: #f6f6f6;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.box img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box:hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+@media (max-width: 800px){
+  .container{
+      width: 100%;
+  }
+  .countdownContainer{
+    width: 100%;
+}
+}
+@media (max-width: 600px){
+  .container{
+      width: 85%;
+      display: block;
+  }
+  .box{
+      width: 100%;
+      margin-bottom: 4%;
+  }
+  .countdownContainer{
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+}
+
+
+.countdownContainer {
+  background: #262626;
+  color: #f6f6f6;
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.countdownContainer:hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+.info {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* Birthday Time */
+
+#birthdayTime h3 {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#birthdayTime {
+  display: none;
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#days{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#hours{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+
+#minutes{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#seconds{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.text{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
